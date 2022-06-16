@@ -8,7 +8,8 @@ type Navigator = {
 
 const Navigators: Navigator[] = [
     {
-        name: "About"
+        name: "About",
+        url: "./About"
     },
     {
         name: "Skills"
@@ -31,7 +32,7 @@ const Header: React.FC =()=> {
             >
                 <Toolbar>
                     {Navigators.map(nav => (
-                        <Button style={{padding : 10}}>
+                        <Button style={{padding : 10}} >
                             {nav.name}
                         </Button>
                     ))}

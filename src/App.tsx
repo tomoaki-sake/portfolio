@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container } from '@mui/material';
 import Header from './components/header';
-import About from './components/about/about';
+import About from './components/about';
+import Profile from './components/profile';
 
 const App: React.FC = () => {
   return (
     <Container maxWidth="xl">
-      <Header />
+      <Profile />
       <About />
     </Container>
   );

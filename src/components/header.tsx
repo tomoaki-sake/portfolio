@@ -8,6 +8,10 @@ type Navigator = {
 
 const Navigators: Navigator[] = [
     {
+        name: "Hi",
+        url: "./Hi"
+    },
+    {
         name: "About",
         url: "./About"
     },
@@ -15,10 +19,10 @@ const Navigators: Navigator[] = [
         name: "Skills"
     },
     {
-        name: "Works"
+        name: "Hobby Works"
     },
     {
-        name: "Contacts"
+        name: "Contact"
     }
 ]
 

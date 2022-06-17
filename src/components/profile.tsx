@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Typography, Box, Stack, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
+import { Avatar, Typography, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { styled } from '@mui/material/styles';
 
 const iconSize = 300;

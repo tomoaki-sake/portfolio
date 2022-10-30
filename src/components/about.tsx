@@ -10,9 +10,9 @@ const About: React.FC = () => {
       <Typography variant='body1' style={{ textAlign: 'center' }} mt={3}>
         滋賀県出身。大学院まで関西育ち。なぜか大分在住の中澤朋亮です。
         <br />
-        現在はtoGメインのエンジニアとして働いています。
+        材料開発関係SaaSのWebエンジニアとして働いています。
         <br />
-        個人的にGoとTypeScriptを勉強中です。
+        現在は機械学習周りを勉強中です。
         <br />
         日本酒が好きすぎてアイコン作りました。京都の「蒼空」がモデルです。
       </Typography>
